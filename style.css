@@ -99,11 +99,11 @@ body {
     display: flex;
     position: relative;
   }
-
+/* not sure what is going wrong here V V V */
   .button-style {
-    position: fixed;
-    left: 50%;
-    bottom: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 50%;
   }
 
   .circle-pink {
