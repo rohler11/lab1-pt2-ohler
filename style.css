@@ -80,39 +80,34 @@ body {
 
   .circle-container {
     flex: 1;
-    display: flex;
-    justify-content: flex-end;
     position: relative;
   }
 
   .main-content {
     display: flex;
-    margin-top: 100px;
-  }
-
-  .button {
-    display: inline;
+    margin-top: 150px;
   }
 
   .move-it {
     display: flex;
     position: relative;
   }
-/* not sure what is going wrong here V V V */
+
   .button-style {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    margin: 50%;
+    position: fixed;
+    bottom:10px;
+    left: 50%;
+    transform: translateX(50%);
   }
 
   .circle-pink {
     position: absolute;
     height: 170px;
     width: 170px;
-    background-color: rgb(253, 68, 68);
+    background-color: rgb(247, 136, 167, 0.6);
     border-radius: 50%;
     display: inline-block;
-    opacity: 0.5;
+    opacity: 0.75;
     top: 0px;
     right: 150px;
   }
@@ -121,10 +116,10 @@ body {
     position: absolute;
     height: 120px;
     width: 120px;
-    background-color: rgb(94, 0, 148);
+    background-color: rgb(207, 130, 213, 0.6);
     border-radius: 50%;
     display: inline-block;
-    opacity: 0.5;
+    opacity: 0.75;
     top: 10px;
     right: 80px;
   }
@@ -133,10 +128,10 @@ body {
     position: absolute;
     height: 140px;
     width: 140px;
-    background-color: rgb(255, 136, 0);
+    background-color: rgb(247, 193, 162, 0.7);
     border-radius: 50%;
     display: inline-block;
-    opacity: 0.5;
+    opacity: 0.75;
     top: 100px;
     right: 85px;
   }
